@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#about, #skills, #projects {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-image: url('icon.png'); /* Dodaj ścieżkę do ikony */
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #333;
+}
